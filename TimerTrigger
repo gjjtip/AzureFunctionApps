@@ -1,0 +1,13 @@
+module.exports = function (context, myTimer) {
+    var timeStamp = new Date().toISOString();
+    
+    if(myTimer.isPastDue)
+    {
+        context.log('JavaScript is running late!');
+    }
+    context.log('JavaScript timer trigger function ran!', timeStamp);   
+    
+    context.done();
+};
+<!--excute every 5 mins
+CRON expression in https://en.wikipedia.org/wiki/Cron#CRON_expression-->
