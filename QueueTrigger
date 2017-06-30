@@ -1,0 +1,7 @@
+module.exports = function (context, myQueueItem) {
+    context.log('JavaScript queue trigger function processed work item', myQueueItem);
+    context.done();
+};
+
+
+<!--https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-storage-queue-triggered-function-->
