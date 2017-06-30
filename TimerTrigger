@@ -11,3 +11,4 @@ module.exports = function (context, myTimer) {
 };
 <!--excute every 5 mins
 CRON expression in https://en.wikipedia.org/wiki/Cron#CRON_expression-->
+<!--https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-scheduled-function-->
